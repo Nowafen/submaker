@@ -89,8 +89,3 @@ This will:
 Current: **v1.1**
 
 ---
-
-## 📁 Repository
-
-[https://github.com/Nowafen/submaker](https://github.com/Nowafen/submaker)
-
