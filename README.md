@@ -66,7 +66,7 @@
 ## 📌 Example
 
 ```bash
-./submaker.sh -f targets.txt -o subdomains-wordlist.txt
+./submaker -f targets.txt -o wordlist.txt
 ```
 
 This will:
