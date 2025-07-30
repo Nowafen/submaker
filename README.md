@@ -2,11 +2,11 @@
 
 **Submaker** is a simple yet powerful Bash-based utility designed to generate custom wordlists for DNS brute-forcing. It leverages `assetfinder` to extract subdomains for given domains and processes them to create a clean, de-duplicated wordlist of subdomain patterns that can later be used in enumeration or fuzzing phases during reconnaissance.
 
-> 🧠 Although this repo hosts the **open-source** version of the script for educational purposes, the main release is closed-source to protect from code plagiarism.
+> Although this repo hosts the **open-source** version of the script for educational purposes, the main release is closed-source to protect from code plagiarism.
 
 ---
 
-## 🔥 Why Use Submaker?
+##  Why Use Submaker?
 
 - Helps in crafting **target-specific wordlists** for DNS brute-force attacks.
 - Extracts subdomain structures from real assets found via `assetfinder`.
@@ -15,7 +15,7 @@
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - Auto version checking and update support
 - Input/output file support
@@ -25,7 +25,7 @@
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. Clone the repo:
    ```bash
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ```bash
 ./submaker.sh -f domains.txt -o wordlist.txt
@@ -63,7 +63,7 @@
 
 ---
 
-## 📌 Example
+##   Example
 
 ```bash
 ./submaker -f targets.txt -o wordlist.txt
@@ -76,7 +76,7 @@ This will:
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - You **must** have `assetfinder` installed and accessible in your `$PATH`.
 - Output file **must** have a `.txt` extension.
@@ -84,7 +84,7 @@ This will:
 
 ---
 
-## 🧪 Version
+##  Version
 
 Current: **v1.1**
 
